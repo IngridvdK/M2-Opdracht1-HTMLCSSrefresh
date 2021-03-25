@@ -1,0 +1,94 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    height: 500px;
+    width: 800px;
+    margin: 15px;
+    grid-template-areas: 
+    "Carla Marijn"
+    "Carla Marijn"
+    ;
+} 
+body{
+    font-family: Calibri, sans-serif;
+    margin: 0px;
+}
+.man {
+    float: right;
+    width: 37px; 
+    height: 50px;
+    margin: 8px 10px 0px 0px;
+}
+.vrouw {
+    float: right;
+    width: 37px; 
+    height: 50px;
+    margin: 8px 10px 0px 0px;
+}
+.top {
+    margin: 10px 10px 0px 10px;
+    border-left: 2px solid lightgrey;
+    border-top: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 10px; 
+
+}
+form {
+    margin: 0px 10px;
+    border-left: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-radius: 0px 0px 10px 10px;
+    padding: 7px 5px 5px 15px; 
+}
+.name {
+    margin: 0px;
+    font-size: 35px;
+}
+.subtitle {
+    margin: 0px;
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+    padding: 0px 0px 10px 0px;
+}
+.message {
+    margin: 0px;
+    font-size: 18px;
+    color: grey;
+}
+form {
+    padding: 15px 15px;
+}
+input {
+    font-size: 20px;
+    margin:0px;
+}
+.approve {
+    padding: 10px 46px;
+    margin: 0px 0px 0px 0px;
+    border-top: 2px solid limegreen;
+    border-right: 0px;
+    border-bottom: 2px solid limegreen;
+    border-left: 2px solid limegreen;
+    border-radius: 5px 0px 0px 5px;
+    background-color: white;
+    color: limegreen;
+    font-weight: bold;
+
+}
+.decline {
+    padding: 10px 46px;
+    margin: 0px;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
